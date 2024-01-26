@@ -1,7 +1,7 @@
 import time
 
 print("CALCULATE NUMBER OF EVEN AND ODD ELEMENTS IN LIST")
-print("\n" * 2)
+print("\n")
 
 print("] List Creation")
 print()
