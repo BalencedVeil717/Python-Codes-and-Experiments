@@ -38,7 +38,7 @@ for i in range(n):
     t.append(e)
 t = tuple(t)
 print("[Minimum / Maximum] :")
-print("")
+print()
 print("a - MINIMUM")
 print("b - MAXIMUM")
 ans = input(" > ")
