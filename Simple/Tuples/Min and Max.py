@@ -10,7 +10,21 @@ def dotX3():
     print(".")
     time.sleep(0.75)
 
+def getMin():
+    min = t[0]
+    for i in range(1, len(t)):
+        if min > t[i]:
+            min = t[i]
+    return min
 
+def getMax():
+    max = t[0]
+    for i in range(1, len(t)):
+        if max < t[i]:
+            max = t[i]
+    return max
+
+            
 print('')
 print("FINDING MAXIMUM AND MINIMUM ELEMENTS OF TUPLE")
 print("\n")
@@ -30,19 +44,13 @@ print("b - MAXIMUM")
 ans = input(" > ")
 print()
 if ans.lower() == "a":
-    min = t[0]
-    for i in range(1, len(t)):
-        if min > t[i]:
-            min = t[i]
+    min = getMin()
     print("Finding", end="")
     dotX3()
     print(f"[Minimum element = {min}] [Position :", (t.index(min) + 1), "]")
     time.sleep(0.5)
 elif ans.lower() == "b":
-    max = t[0]
-    for i in range(1, len(t)):
-        if max < t[i]:
-            max = t[i]
+    max = getMax()
     print("Finding", end="")
     dotX3()
     print(f"[Maximum element = {max}] [Position :", (t.index(max) + 1), "]")
