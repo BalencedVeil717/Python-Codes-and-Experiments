@@ -24,17 +24,17 @@ print(".", end="")
 time.sleep(0.35)
 print(".")
 time.sleep(1)
-
 print()
-o = e = 0
+
+odd = even = 0
 for i in l:
     if i % 2 == 0:
-        e += 1
+        even += 1
     else:
-        o += 1
+        odd += 1
 
-print("> Even elements : ", e)
-print("> Odd elements : ", o)
+print("> Even elements : ", even)
+print("> Odd elements : ", odd)
 
 # RESULT
 
