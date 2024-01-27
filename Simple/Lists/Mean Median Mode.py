@@ -26,15 +26,17 @@ def getMode():
             mode = l[i]
     return mode
 
-print('')
+print()
 print('FIND MEAN/MEDIAN/MODE OF LIST')
 print('\n')
 
 print("] List Creation")
 print()
 n = int(input("Enter number of elements in your list: "))
+print()
 l = []
 print("Note: Please enter numbers only to avoid errors")
+print()
 for i in range(n):
     e = int(input(f"Enter element {i+1}: "))
     l.append(e)
@@ -44,9 +46,9 @@ print('[ Choose Method] : ')
 print('a - Mean')
 print('b - Median')
 print('c - Mode')
-
+print('-'*20)
 ans = input(" > ")
-print('')
+print()
 
 if (ans.lower() == 'a'):
     print(' ] MEAN')
@@ -74,22 +76,31 @@ elif (ans.lower() == 'c'):
 
 # ] List Creation
 
+
+# FIND MEAN/MEDIAN/MODE OF LIST
+
+
+# ] List Creation
+
 # Enter number of elements in your list: 7
+
 # Note: Please enter numbers only to avoid errors
-# Enter element 1: 33
-# Enter element 2: 36
+
+# Enter element 1: 4
+# Enter element 2: 45
 # Enter element 3: 234
-# Enter element 4: 33
-# Enter element 5: 568
-# Enter element 6: 12
-# Enter element 7: 34
+# Enter element 4: 45
+# Enter element 5: 4 
+# Enter element 6: 4
+# Enter element 7: 46
 
 # [ Choose Method] :
 # a - Mean
 # b - Median
 # c - Mode
+# --------------------
 #  > c
 
 #  ] MODE
 # Calculating...
-#  - Mode : 33
+#  - Mode : 4
