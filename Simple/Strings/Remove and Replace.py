@@ -10,24 +10,29 @@ def dotX3():
     print(".")
     time.sleep(0.75)
 
-
+print('')
 print("REMOVING AND REPLACING CHARACTERS OF STRING")
 print("\n")
+
 s = input("Enter Message : ")
 print("")
 print("[Replace / Remove] :")
 print("")
 print("a - REPLACE")
 print("b - REMOVE")
+
 ans = input(" > ")
 print("")
+
 if ans.lower() == "a":
     print("Replace Using :")
     print("")
     print("a - Character")
     print("b - Position")
+
     ans = input(" >> ")
     print("")
+
     if ans.lower() == "a":
         rem = input("Character to replace : ")
         add = input("Replace with : ")
@@ -55,6 +60,7 @@ elif ans.lower() == "b":
     print("b - Position")
     ans = input(" >> ")
     print("")
+
     if ans.lower() == "a":
         rem = input("Character to remove : ")
         print("Removing", end="")
@@ -74,6 +80,7 @@ else:
     exit()
 
 # RESULT
+    
 # REMOVING AND REPLACING CHARACTERS OF STRING
 
 

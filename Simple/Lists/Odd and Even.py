@@ -1,5 +1,7 @@
 import time
 
+
+print('')
 print("CALCULATE NUMBER OF EVEN AND ODD ELEMENTS IN LIST")
 print("\n")
 
@@ -11,8 +13,8 @@ print("Note: Please enter numbers only to avoid errors")
 for i in range(n):
     e = int(input(f"Enter element {i+1}: "))
     l.append(e)
-
 print()
+
 time.sleep(0.50)
 print("] Calculating", end="")
 time.sleep(0.35)
@@ -35,6 +37,7 @@ print("> Even elements : ", e)
 print("> Odd elements : ", o)
 
 # RESULT
+
 # CALCULATE NUMBER OF EVEN AND ODD ELEMENTS IN LIST
 
 
