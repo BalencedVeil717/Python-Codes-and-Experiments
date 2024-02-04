@@ -21,7 +21,8 @@ def properPrint(d):
         for ln in d[topic]:
             print("- ", ln.capitalize())
             time.sleep(0.15)
-    print("")
+        time.sleep(0.50)
+        print()
 
 
 print("")
@@ -33,3 +34,4 @@ print("Finding", end="")
 dotX3()
 d = dictionary.meaning(s)
 properPrint(d)
+
