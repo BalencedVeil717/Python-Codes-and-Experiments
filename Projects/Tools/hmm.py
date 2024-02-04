@@ -19,3 +19,9 @@ d = {
         "raise or haul up with or as if with mechanical help",
     ],
 }
+
+for topic in d.keys():
+    print(f'[ {topic.upper()} ]')
+    for ln in d[topic]:
+        print('- ',ln.capitalize())
+    print('')
